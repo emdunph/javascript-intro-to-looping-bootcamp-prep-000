@@ -1,15 +1,15 @@
-function forLoop (array) {
-  for (let i = 0; i < 25; i++) {
+function forLoop(array) {
+  array.length += 25;
+  for (let i = 0; i < array.length; i++) {
     if (i === 1) {
-      array.push("I am 1 strange loop.")
-    };
-    else {
-      array.push(`I am ${i} strange loops.`)
-    };
-    return array;
-  }
-}
+      array[i] = `"I am 1 strange loop."`;
+    }else{
+      array[i] = `"I am ${i} strange loops."`;
+    }
 
+  }
+
+  return array;
 }
 
 function whileLoop(n){
