@@ -19,7 +19,7 @@ function doWhileLoop(array) {
   }
 
   do {
-    {array=array.pop}
+    {array=array.splicexx}
   } while (array.length > 0 && maybeTrue());
   return array
 }
