@@ -11,11 +11,11 @@ function whileLoop(n){
     console.log(n);
     n--
   };
-  return "done";
+  return "";
 }
 
 function doWhileLoop(array) {
   do {
     [loopbody];
-  } while (maybeTrue());
+  } while (function maybeTrue(return "false"));
 }
