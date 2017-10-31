@@ -19,6 +19,6 @@ function doWhileLoop(array) {
   }
 
   do {
-    {array=array.splice}
+    {array=array.pop}
   } while (array.length > 0 && maybeTrue());
 }
