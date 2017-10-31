@@ -4,7 +4,7 @@ function forLoop(array){
   var array = ["I am 1 strange loop."]};
   else {(i === 2)};
   var array = [`I am ${i} strange loops.`];
-return array
+return array;
 }
 
 }
